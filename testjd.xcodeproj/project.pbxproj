@@ -10,8 +10,9 @@
 		BF75CC9D1FB3977B00BC47E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75CC9C1FB3977B00BC47E2 /* AppDelegate.swift */; };
 		BF75CC9F1FB3977B00BC47E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75CC9E1FB3977B00BC47E2 /* ViewController.swift */; };
 		BF75CCA21FB3977B00BC47E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF75CCA01FB3977B00BC47E2 /* Main.storyboard */; };
-		BF75CCA41FB3977B00BC47E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF75CCA31FB3977B00BC47E2 /* Assets.xcassets */; };
 		BF75CCA71FB3977B00BC47E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF75CCA51FB3977B00BC47E2 /* LaunchScreen.storyboard */; };
+		BF75CCAF1FB39FF800BC47E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF75CCAE1FB39FF800BC47E2 /* Assets.xcassets */; };
+		BFD7C2DE20BC8C8200640947 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD7C2DD20BC8C8200640947 /* ShopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,12 @@
 		BF75CC9C1FB3977B00BC47E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF75CC9E1FB3977B00BC47E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF75CCA11FB3977B00BC47E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF75CCA31FB3977B00BC47E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF75CCA61FB3977B00BC47E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF75CCA81FB3977B00BC47E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF75CCAE1FB39FF800BC47E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD7C2DD20BC8C8200640947 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		BFD7C2DF20BC995600640947 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		BFD7C2E020BC995700640947 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +58,11 @@
 		BF75CC9B1FB3977B00BC47E2 /* testjd */ = {
 			isa = PBXGroup;
 			children = (
+				BF75CCAE1FB39FF800BC47E2 /* Assets.xcassets */,
 				BF75CC9C1FB3977B00BC47E2 /* AppDelegate.swift */,
 				BF75CC9E1FB3977B00BC47E2 /* ViewController.swift */,
+				BFD7C2DD20BC8C8200640947 /* ShopViewController.swift */,
 				BF75CCA01FB3977B00BC47E2 /* Main.storyboard */,
-				BF75CCA31FB3977B00BC47E2 /* Assets.xcassets */,
 				BF75CCA51FB3977B00BC47E2 /* LaunchScreen.storyboard */,
 				BF75CCA81FB3977B00BC47E2 /* Info.plist */,
 			);
@@ -91,7 +96,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "JOAQUIN DURO ARRIBAS";
 				TargetAttributes = {
 					BF75CC981FB3977B00BC47E2 = {
@@ -124,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF75CCA71FB3977B00BC47E2 /* LaunchScreen.storyboard in Resources */,
-				BF75CCA41FB3977B00BC47E2 /* Assets.xcassets in Resources */,
+				BF75CCAF1FB39FF800BC47E2 /* Assets.xcassets in Resources */,
 				BF75CCA21FB3977B00BC47E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +143,7 @@
 			files = (
 				BF75CC9F1FB3977B00BC47E2 /* ViewController.swift in Sources */,
 				BF75CC9D1FB3977B00BC47E2 /* AppDelegate.swift in Sources */,
+				BFD7C2DE20BC8C8200640947 /* ShopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +154,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF75CCA11FB3977B00BC47E2 /* Base */,
+				BFD7C2DF20BC995600640947 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,6 +163,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF75CCA61FB3977B00BC47E2 /* Base */,
+				BFD7C2E020BC995700640947 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,6 +175,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -177,6 +186,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +194,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -224,6 +235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -234,6 +246,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +254,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
